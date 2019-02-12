@@ -1,0 +1,95 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:7676349049624728238",
+      "lastPropertyId": "17:1465455943851711966",
+      "name": "UnLimit91PornItem",
+      "properties": [
+        {
+          "id": "1:5382819512287296580",
+          "name": "id"
+        },
+        {
+          "id": "2:7323890108920013753",
+          "indexId": "1:6833244435063725747",
+          "name": "viewKey"
+        },
+        {
+          "id": "3:4687767373963329506",
+          "name": "title"
+        },
+        {
+          "id": "4:8019623650539000885",
+          "name": "imgUrl"
+        },
+        {
+          "id": "5:7847344775679835809",
+          "name": "duration"
+        },
+        {
+          "id": "6:8203808423105563246",
+          "name": "info"
+        },
+        {
+          "id": "7:1630159915269509037",
+          "name": "videoUrl"
+        },
+        {
+          "id": "8:1391958675006534548",
+          "name": "downloadId"
+        },
+        {
+          "id": "9:5840035364621187215",
+          "name": "favorite"
+        },
+        {
+          "id": "10:6529382751884592128",
+          "name": "progress"
+        },
+        {
+          "id": "11:3675286047750517299",
+          "name": "speed"
+        },
+        {
+          "id": "12:6067506758553295641",
+          "name": "soFarBytes"
+        },
+        {
+          "id": "13:4232388356652536671",
+          "name": "totalFarBytes"
+        },
+        {
+          "id": "14:5052241766821679543",
+          "name": "status"
+        },
+        {
+          "id": "15:2113839086524065691",
+          "name": "favoriteDate"
+        },
+        {
+          "id": "16:5239695547995215847",
+          "name": "addDownloadDate"
+        },
+        {
+          "id": "17:1465455943851711966",
+          "name": "finshedDownloadDate"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "1:7676349049624728238",
+  "lastIndexId": "1:6833244435063725747",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
