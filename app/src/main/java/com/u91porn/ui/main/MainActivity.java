@@ -1,5 +1,7 @@
 package com.u91porn.ui.main;
 
+import java.io.File;
+
 import android.Manifest;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -11,7 +13,7 @@ import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatDelegate;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
@@ -21,9 +23,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.Toast;
-
-import com.orhanobut.logger.Logger;
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import com.u91porn.MyApplication;
 import com.u91porn.R;
 import com.u91porn.ui.BaseAppCompatActivity;
@@ -35,11 +36,6 @@ import com.u91porn.utils.Constants;
 import com.u91porn.utils.Keys;
 import com.u91porn.utils.SPUtils;
 import com.yanzhenjie.permission.AndPermission;
-
-import java.io.File;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
 
 /**
  * @author flymegoc
@@ -69,6 +65,7 @@ public class MainActivity extends BaseAppCompatActivity implements NavigationVie
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         File file = new File(Constants.DOWNLOAD_PATH);
