@@ -12,11 +12,11 @@ import com.trello.rxlifecycle2.components.support.RxFragment;
 
 public abstract class BaseFragment extends RxFragment {
 
-    protected void showMessage(String msg) {
-        Toast.makeText(getContext(), msg, Toast.LENGTH_SHORT).show();
-    }
+  protected void showMessage(String msg) {
+    Toast.makeText(getContext(), msg, Toast.LENGTH_SHORT).show();
+  }
 
-    public String getTitle() {
-        return "";
-    }
+  public String getTitle() {
+    return "";
+  }
 }

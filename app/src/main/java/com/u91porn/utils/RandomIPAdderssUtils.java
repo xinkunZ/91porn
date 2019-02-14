@@ -9,15 +9,16 @@ import java.util.Random;
  */
 
 public class RandomIPAdderssUtils {
-    private static Random mRandom = new Random();
+  private static Random mRandom = new Random();
 
-    /**
-     * 获取随机ip地址
-     *
-     * @return
-     */
-    public static String getRandomIPAdderss() {
+  /**
+   * 获取随机ip地址
+   *
+   * @return
+   */
+  public static String getRandomIPAdderss() {
 
-        return String.valueOf(mRandom.nextInt(255)) + "." + String.valueOf(mRandom.nextInt(255)) + "." + String.valueOf(mRandom.nextInt(255)) + "." + String.valueOf(mRandom.nextInt(255));
-    }
+    return String.valueOf(mRandom.nextInt(255)) + "." + String.valueOf(mRandom.nextInt(255)) + "."
+        + String.valueOf(mRandom.nextInt(255)) + "." + String.valueOf(mRandom.nextInt(255));
+  }
 }

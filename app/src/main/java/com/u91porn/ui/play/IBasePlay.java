@@ -8,5 +8,5 @@ import com.u91porn.ui.download.IBaseDownload;
  * @describe
  */
 
-public interface IBasePlay extends IBaseDownload{
+public interface IBasePlay extends IBaseDownload {
 }

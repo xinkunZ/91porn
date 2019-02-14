@@ -8,8 +8,8 @@ import com.u91porn.data.model.UnLimit91PornItem;
  * @describe
  */
 
-public interface IPlay extends IBasePlay{
-    void loadVideoUrl(String viewKey);
+public interface IPlay extends IBasePlay {
+  void loadVideoUrl(String viewKey);
 
-    void saveVideoUrl(String videoUrl,UnLimit91PornItem unLimit91PornItem);
+  void saveVideoUrl(String videoUrl, UnLimit91PornItem unLimit91PornItem);
 }

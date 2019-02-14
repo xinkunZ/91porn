@@ -1,9 +1,9 @@
 package com.u91porn.ui.download;
 
+import java.util.List;
+
 import com.u91porn.data.model.UnLimit91PornItem;
 import com.u91porn.ui.BaseView;
-
-import java.util.List;
 
 /**
  * @author flymegoc
@@ -12,7 +12,7 @@ import java.util.List;
  */
 
 public interface DownloadView extends BaseView {
-    void setDownloadingData(List<UnLimit91PornItem> unLimit91PornItems);
+  void setDownloadingData(List<UnLimit91PornItem> unLimit91PornItems);
 
-    void setFinishedData(List<UnLimit91PornItem> unLimit91PornItems);
+  void setFinishedData(List<UnLimit91PornItem> unLimit91PornItems);
 }

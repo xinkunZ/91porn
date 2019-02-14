@@ -6,6 +6,6 @@ package com.u91porn.ui.index;
  * @describe
  */
 
-public interface IIndex extends IBaseIndex{
-    void loadIndexData(final boolean pullToRefresh);
+public interface IIndex extends IBaseIndex {
+  void loadIndexData(final boolean pullToRefresh);
 }

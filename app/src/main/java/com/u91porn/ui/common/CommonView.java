@@ -1,10 +1,9 @@
 package com.u91porn.ui.common;
 
-import com.hannesdorfmann.mosby3.mvp.MvpView;
+import java.util.List;
+
 import com.u91porn.data.model.UnLimit91PornItem;
 import com.u91porn.ui.BaseView;
-
-import java.util.List;
 
 /**
  * @author flymegoc
@@ -13,16 +12,16 @@ import java.util.List;
  */
 
 public interface CommonView extends BaseView {
-    void loadMoreDataComplete();
+  void loadMoreDataComplete();
 
-    void loadMoreFailed();
+  void loadMoreFailed();
 
-    void noMoreData();
+  void noMoreData();
 
-    void setMoreData(List<UnLimit91PornItem> unLimit91PornItemList);
+  void setMoreData(List<UnLimit91PornItem> unLimit91PornItemList);
 
-    void loadData(boolean pullToRefresh);
+  void loadData(boolean pullToRefresh);
 
-    void setData(List<UnLimit91PornItem> data);
+  void setData(List<UnLimit91PornItem> data);
 
 }

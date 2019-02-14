@@ -9,22 +9,22 @@ import java.util.List;
  */
 
 public class BaseResult {
-    private List<UnLimit91PornItem> unLimit91PornItemList;
-    private Integer totalPage;
+  private List<UnLimit91PornItem> unLimit91PornItemList;
+  private Integer totalPage;
 
-    public List<UnLimit91PornItem> getUnLimit91PornItemList() {
-        return unLimit91PornItemList;
-    }
+  public List<UnLimit91PornItem> getUnLimit91PornItemList() {
+    return unLimit91PornItemList;
+  }
 
-    public void setUnLimit91PornItemList(List<UnLimit91PornItem> unLimit91PornItemList) {
-        this.unLimit91PornItemList = unLimit91PornItemList;
-    }
+  public void setUnLimit91PornItemList(List<UnLimit91PornItem> unLimit91PornItemList) {
+    this.unLimit91PornItemList = unLimit91PornItemList;
+  }
 
-    public Integer getTotalPage() {
-        return totalPage;
-    }
+  public Integer getTotalPage() {
+    return totalPage;
+  }
 
-    public void setTotalPage(Integer totalPage) {
-        this.totalPage = totalPage;
-    }
+  public void setTotalPage(Integer totalPage) {
+    this.totalPage = totalPage;
+  }
 }

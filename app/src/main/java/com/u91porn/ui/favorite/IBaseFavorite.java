@@ -9,5 +9,5 @@ import com.u91porn.data.model.UnLimit91PornItem;
  */
 
 public interface IBaseFavorite {
-    void favorite(UnLimit91PornItem unLimit91PornItem);
+  void favorite(UnLimit91PornItem unLimit91PornItem);
 }

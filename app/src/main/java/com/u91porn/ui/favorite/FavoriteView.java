@@ -1,9 +1,9 @@
 package com.u91porn.ui.favorite;
 
+import java.util.List;
+
 import com.u91porn.data.model.UnLimit91PornItem;
 import com.u91porn.ui.BaseView;
-
-import java.util.List;
 
 /**
  * @author flymegoc
@@ -12,9 +12,9 @@ import java.util.List;
  */
 
 public interface FavoriteView extends BaseView {
-    void setFavoriteData(List<UnLimit91PornItem> unLimit91PornItemList);
+  void setFavoriteData(List<UnLimit91PornItem> unLimit91PornItemList);
 
-    void deleteFavoriteSucc(int position);
+  void deleteFavoriteSucc(int position);
 
-    void noLoadMoreData();
+  void noLoadMoreData();
 }
